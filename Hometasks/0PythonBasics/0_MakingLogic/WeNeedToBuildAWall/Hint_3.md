@@ -2,7 +2,7 @@
 
 ```Python
 founded = False
-while(!founded):
+while not founded:
 	...
 	if ... :
 		for current_try in range(3):
