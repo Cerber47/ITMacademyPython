@@ -38,25 +38,54 @@ var_5 = [1,2,3,4,5]
 	* `Int` - целые числа
 	* `float` - числа с плавающей точкой
 	* `complex` - комплексные числа
-* __Строки__ (Text sequence type)
-	* `str` 
 @snapend
 
 +++
 
 @snap[north]
-
+Типы переменных
 @snapend
 
 @snap[west]
-1. __None__
-6. __Логический__(Boolean type)
-7. __Числа__ (Numeric type)
-	* `Int` - целые числа
-	* `float` - числа с плавающей точкой
-	* `complex` - комплексные числа
-8. __Строки__ (Text sequence type)
-	* `str` 
+* __Списки__ (Sequence Type)
+	* `list` - список
+	* `tuple` - кортеж
+	* `range` - диапазон
+* __Строки__ (Text sequence type)
+	* `str` - строчный тип
+* __Словари__ (Mapping Types)
+	* `dict` - словарь
+
+@snapend
+
++++
+
+@snap[north]
+Типы переменных
+@snapend
+
+@snap[west]
+* __Множества__ (Set Types)
+	* `set` - множество
+	* `frozenset` - константное множество
+* __Бинарные списки__ (Binary Sequence Types)
+	* `bytes` - байты
+	* `bytearray` - массивы байт
+	* ```cmemoryview``` – специальные объекты для доступа к внутренним данным объекта через protocol buffe
+
+
+@snapend
+
++++
+
+@snap[north]
+Типы переменных
+@snapend
+
+@snap[west]
+
+
+
 @snapend
 
 +++
