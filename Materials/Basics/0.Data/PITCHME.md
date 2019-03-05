@@ -51,19 +51,19 @@ var_5 = [1,2,3,4,5]
 @snapend
 
 @snap[west]
-@ul[](false)
+@ul[square-bullets](false)
 - __Списки__ (Sequence Type)
-	@ul[](false)
+	@ul[square-bullets](false)
 	- `list` - список
 	- `tuple` - кортеж
 	- `range` - диапазон
 	@ulend
 - __Строки__ (Text sequence type)
-	@ul[](false)
+	@ul[square-bullets](false)
 	- `str` - строчный тип
 	@ulend
 - __Словари__ (Mapping Types)
-	@ul[](false)
+	@ul[square-bullets](false)
 	- `dict` - словарь
 	@ulend
 @ulend
@@ -86,7 +86,7 @@ var_5 = [1,2,3,4,5]
 	@ul[](false)
 	- `bytes` - байты
 	- `bytearray` - массивы байт
-	- ```cmemoryview``` – специальные объекты для доступа к внутренним данным объекта через protocol buffer
+	- `cmemoryview` – специальные объекты для доступа к внутренним данным объекта через protocol buffer
 	@ulemd
 @ulend
 
