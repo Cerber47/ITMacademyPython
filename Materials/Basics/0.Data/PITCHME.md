@@ -52,21 +52,29 @@ var_5 = [1,2,3,4,5]
 
 @snap[west]
 @ul[square-bullets](false)
-- __Списки__ (Sequence Type)
+
+* __Списки__ (Sequence Type)
+	
 	@ul[square-bullets](false)
 	- `list` - список
 	- `tuple` - кортеж
 	- `range` - диапазон
 	@ulend
-- __Строки__ (Text sequence type)
+
+* __Строки__ (Text sequence type)
+	
 	@ul[square-bullets](false)
 	- `str` - строчный тип
 	@ulend
-- __Словари__ (Mapping Types)
+
+* __Словари__ (Mapping Types)
+
 	@ul[square-bullets](false)
 	- `dict` - словарь
 	@ulend
+
 @ulend
+
 @snapend
 
 +++
