@@ -32,12 +32,16 @@ var_5 = [1,2,3,4,5]
 @snapend
 
 @snap[west]
-* __None__
-* __Логический__(Boolean type)
-* __Числа__ (Numeric type)
+@ul[](false)
+- __None__
+- __Логический__(Boolean type)
+- __Числа__ (Numeric type)
+	@ul[](false)
 	* `Int` - целые числа
 	* `float` - числа с плавающей точкой
 	* `complex` - комплексные числа
+	@ulend
+@ulend
 @snapend
 
 +++
