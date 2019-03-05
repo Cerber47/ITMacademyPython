@@ -34,12 +34,12 @@ var_5 = [1,2,3,4,5]
 @snap[west]
 @ul[](false)
 - __None__
-- __Логический__(Boolean type)
+- __Логический__ (Boolean type)
 - __Числа__ (Numeric type)
 	@ul[](false)
-	* `Int` - целые числа
-	* `float` - числа с плавающей точкой
-	* `complex` - комплексные числа
+	- `Int` - целые числа
+	- `float` - числа с плавающей точкой
+	- `complex` - комплексные числа
 	@ulend
 @ulend
 @snapend
@@ -51,15 +51,22 @@ var_5 = [1,2,3,4,5]
 @snapend
 
 @snap[west]
-* __Списки__ (Sequence Type)
-	* `list` - список
-	* `tuple` - кортеж
-	* `range` - диапазон
-* __Строки__ (Text sequence type)
-	* `str` - строчный тип
-* __Словари__ (Mapping Types)
-	* `dict` - словарь
-
+@ul[](false)
+- __Списки__ (Sequence Type)
+	@ul[](false)
+	- `list` - список
+	- `tuple` - кортеж
+	- `range` - диапазон
+	@ulend
+- __Строки__ (Text sequence type)
+	@ul[](false)
+	- `str` - строчный тип
+	@ulend
+- __Словари__ (Mapping Types)
+	@ul[](false)
+	- `dict` - словарь
+	@ulend
+@ulend
 @snapend
 
 +++
@@ -69,14 +76,19 @@ var_5 = [1,2,3,4,5]
 @snapend
 
 @snap[west]
-* __Множества__ (Set Types)
-	* `set` - множество
-	* `frozenset` - константное множество
-* __Бинарные списки__ (Binary Sequence Types)
-	* `bytes` - байты
-	* `bytearray` - массивы байт
-	* ```cmemoryview``` – специальные объекты для доступа к внутренним данным объекта через protocol buffe
-
+@ul[](false)
+- __Множества__ (Set Types)
+	@ul[](false)
+	- `set` - множество
+	- `frozenset` - константное множество
+	@ulend
+- __Бинарные списки__ (Binary Sequence Types)
+	@ul[](false)
+	- `bytes` - байты
+	- `bytearray` - массивы байт
+	- ```cmemoryview``` – специальные объекты для доступа к внутренним данным объекта через protocol buffer
+	@ulemd
+@ulend
 
 @snapend
 
